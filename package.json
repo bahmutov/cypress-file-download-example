@@ -1,0 +1,30 @@
+{
+  "name": "cypress-file-download-example",
+  "version": "1.0.0",
+  "description": "Example downloading and checking a file using Cypress Test Runner",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -p 3500 public",
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "dev": "start-test 3500 cy:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-file-download-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-file-download-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-file-download-example#readme",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "prettier": "^2.6.2",
+    "serve": "^13.0.2",
+    "start-server-and-test": "^1.14.0"
+  }
+}
