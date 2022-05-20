@@ -1,5 +1,9 @@
 /// <reference types="cypress" />
 
+beforeEach(() => {
+  cy.task('deleteDownloads')
+})
+
 it('downloads a text file', () => {
   cy.visit('/')
   cy.get('a[download]').click()
