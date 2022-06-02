@@ -8,7 +8,9 @@
     "start": "serve -p 3500 public",
     "test": "cypress run",
     "cy:open": "cypress open",
-    "dev": "start-test 3500 cy:open"
+    "cy:run": "cypress run",
+    "dev": "start-test 3500 cy:open",
+    "ci": "start-test 3500 cy:run"
   },
   "repository": {
     "type": "git",
